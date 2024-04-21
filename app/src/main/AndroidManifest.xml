@@ -24,7 +24,7 @@
             android:name=".ProfilePage"
             android:exported="false" />
         <activity
-            android:name=".HomePageEmptyCase"
+            android:name=".SplashScreen"
             android:exported="false" />
         <activity
             android:name=".HomePage"
@@ -40,7 +40,7 @@
             android:exported="false" />
         <!-- SplashScreen -->
         <activity
-            android:name=".SplashScreen"
+            android:name=".HomePageEmptyCase"
             android:exported="true"
             android:theme="@style/Base.Theme.BilleteraVirtual">
             <intent-filter>
