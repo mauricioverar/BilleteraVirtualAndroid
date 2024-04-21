@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">BilleteraVirtual</string>
 
     <string name="ek_img_content">ExportKit Image</string>
@@ -19,4 +19,22 @@
     <string name="total_balance_string">Balance Total</string>
     <string name="hi__amanda__string">Hola, Amanda!</string>
     <string name="dashboard_string">Inicio</string>
+    <string name="shape_ek3">shape_ek3</string>
+    <string name="shape_ek2">shape_ek2</string>
+    <string name="shape_ek1" tools:ignore="Typos">shape_ek1</string>
+    <string name="path_ek12">path_ek12</string>
+    <string name="path_ek11" tools:ignore="Typos">path_ek11</string>
+    <string name="path_ek10">path_ek10</string>
+    <string name="path_ek9">path_ek9</string>
+    <string name="profile_picture">profile_picture</string>
+    <string name="path_ek8">path_ek8</string>
+    <string name="shape">shape</string>
+    <string name="path_ek7">path_ek7</string>
+    <string name="path_ek6">path_ek6</string>
+    <string name="path_ek5">path_ek5</string>
+    <string name="path_ek4">path_ek4</string>
+    <string name="path_ek3">path_ek3</string>
+    <string name="path_ek2">path_ek2</string>
+    <string name="path_ek1" tools:ignore="Typos">path_ek1</string>
+    <string name="path">path</string>
 </resources>
