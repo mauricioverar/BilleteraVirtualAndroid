@@ -5,6 +5,259 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginSignupPage">
+    tools:context=".LoginSignupPage"
+    android:theme="@style/Base.Theme.BilleteraVirtual">
+
+
+    <RelativeLayout
+        android:id="@+id/page__5__login_signup_page_ek1"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:id="@+id/background"
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:visibility="visible">
+            <!-- blanco  -->
+            <View
+                android:id="@+id/mask_ek1"
+                android:layout_width="800dp"
+                android:layout_height="812dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/mask_ek1_shape"
+                android:visibility="visible" />
+            <!-- oval sombra -->
+            <View
+                android:id="@+id/oval"
+                android:layout_width="800dp"
+                android:layout_height="670dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="-130dp"
+                android:background="@drawable/oval_shape" />
+            <!-- oval azul -->
+            <View
+                android:id="@+id/oval_ek1"
+                android:layout_width="1000dp"
+                android:layout_height="670dp"
+                android:layout_marginTop="-160dp"
+                android:background="@drawable/oval_ek1_shape" />
+
+        </RelativeLayout>
+        <!-- ya tiene cuenta? -->
+        <TextView
+            android:id="@+id/already_have_account"
+            android:layout_width="110.4dp"
+            android:layout_height="25.4dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="670dp"
+            android:gravity="center"
+            android:text="@string/already_have_account_string"
+            android:textColor="@color/already_have_account_color"
+            android:textSize="14sp" />
+
+        <!-- boton crear cuenta nueva -->
+        <RelativeLayout
+            android:id="@+id/signup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="600dp">
+
+            <View
+                android:id="@+id/rectangle"
+                android:layout_width="315dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rectangle_shape"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/crear_cuenta_nueva"
+                android:layout_width="128.4dp"
+                android:layout_height="25.4dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:text="@string/crear_cuenta_nueva_string"
+                android:textColor="@color/login_signup_page_ek2_color"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+        <!-- El lugar mas seguro para tu dinero -->
+        <TextView
+            android:id="@+id/the_best_way_to_tran"
+            android:layout_width="247dp"
+            android:layout_height="25.6dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="278dp"
+            android:layout_marginTop="380dp"
+            android:gravity="center"
+            android:text="@string/the_best_way_to_tran_string"
+            android:textColor="@color/login_signup_page_ek2_color"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/status_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="0dp">
+
+            <View
+                android:id="@+id/_bg__status_bar_ek1"
+                android:layout_width="375dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__status_bar_ek1_shape" />
+
+            <View
+                android:id="@+id/rectangle_ek1"
+                android:layout_width="375dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:alpha="0.0001"
+                android:background="@drawable/rectangle_ek1_shape" />
+
+            <ImageView
+                android:id="@+id/path"
+                android:layout_width="23dp"
+                android:layout_height="12.33dp"
+                android:layout_marginStart="326dp"
+                android:layout_marginTop="13dp"
+                android:contentDescription="path"
+                android:src="@drawable/path" />
+
+            <ImageView
+                android:id="@+id/path_ek1"
+                android:layout_width="22dp"
+                android:layout_height="11.33dp"
+                android:layout_marginStart="327dp"
+                android:layout_marginTop="14dp"
+                android:contentDescription="path_ek1"
+                android:src="@drawable/path_ek1" />
+
+            <ImageView
+                android:id="@+id/path_ek2"
+                android:layout_width="1.33dp"
+                android:layout_height="4dp"
+                android:layout_marginStart="350dp"
+                android:layout_marginTop="18dp"
+                android:contentDescription="path_ek2"
+                android:src="@drawable/path_ek2" />
+
+            <ImageView
+                android:id="@+id/path_ek3"
+                android:layout_width="18dp"
+                android:layout_height="7.33dp"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="path_ek3"
+                android:src="@drawable/path_ek3" />
+
+            <ImageView
+                android:id="@+id/shape"
+                android:layout_width="15.28dp"
+                android:layout_height="10.97dp"
+                android:layout_marginStart="307dp"
+                android:layout_marginTop="14dp"
+                android:contentDescription="shape"
+                android:src="@drawable/shape" />
+
+            <ImageView
+                android:id="@+id/shape_ek1"
+                android:layout_width="17dp"
+                android:layout_height="10.67dp"
+                android:layout_marginStart="285dp"
+                android:layout_marginTop="14dp"
+                android:contentDescription="shape_ek1"
+                android:src="@drawable/shape_ek1" />
+
+            <ImageView
+                android:id="@+id/shape_ek2"
+                android:layout_width="27.45dp"
+                android:layout_height="10.36dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="15dp"
+                android:contentDescription="shape_ek2"
+                android:src="@drawable/shape_ek2" />
+
+        </RelativeLayout>
+
+        <!-- Logo -->
+        <RelativeLayout
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="140dp">
+
+            <View
+                android:id="@+id/_bg__logo_ek1"
+                android:layout_width="106dp"
+                android:layout_height="137dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/oval_ek1_shape" />
+
+            <ImageView
+                android:id="@+id/vector"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="vector"
+                android:src="@drawable/vector" />
+
+            <TextView
+                android:id="@+id/alkewallet"
+                android:layout_width="175.4dp"
+                android:layout_height="50.4dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="-36dp"
+                android:layout_marginTop="94dp"
+                android:gravity="center"
+                android:text="@string/alkewallet_string"
+                android:textColor="@color/login_signup_page_ek2_color"
+                android:textSize="24sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/send_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="9dp">
+
+                <ImageView
+                    android:id="@+id/path_ek4"
+                    android:layout_width="34.42dp"
+                    android:layout_height="34.42dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="12dp"
+                    android:contentDescription="path_ek4"
+                    android:src="@drawable/path_ek4" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
