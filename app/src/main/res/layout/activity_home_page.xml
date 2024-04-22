@@ -7,4 +7,673 @@
     android:layout_height="match_parent"
     tools:context=".HomePage">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/user_balance"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="264dp"
+                android:layout_marginTop="3.5dp"
+                android:fontFamily="@font/jua"
+                android:gravity="end|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="+$09.00"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/user_time"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="180dp"
+                android:layout_marginBottom="2.5dp"
+                android:alpha="0.4000000059604645"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Oct 04, 05:45 AM"
+                android:textColor="#FF1A1A1A"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginEnd="180dp"
+                android:layout_marginBottom="14dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Hiba Saleh"
+                android:textColor="#FF1A1A1A"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/user_profile_pic"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="305dp"
+                android:layout_marginBottom="9dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user_profile_pic" />
+
+            <ImageView
+                android:id="@+id/user_oval_pic"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="296dp"
+                android:background="@drawable/user_oval"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/user_request_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="299dp"
+                android:layout_marginBottom="3dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user_request_icon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            android:layout_gravity="top|start">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/drawable_image_2" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="351dp"
+                android:layout_marginTop="204dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drawable_image_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginEnd="199dp"
+                android:layout_marginBottom="-4.5dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="$124.57"
+                android:textColor="#FFFFFFFF"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="152dp"
+                android:layout_marginEnd="226dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Balance Total"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="245dp"
+                android:alpha="0.5"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Hola, Amanda!"
+                android:textColor="#FFFFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="335dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="174dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drawable_image_4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="53dp"
+                android:layout_marginEnd="300dp"
+                android:layout_marginBottom="63dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Inicio"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="222dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/drawable_image_5" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/container_send_button"
+            android:layout_width="165dp"
+            android:layout_height="49dp"
+            android:layout_gravity="top"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="294dp"
+            android:layout_marginEnd="195dp">
+
+            <ImageView
+                android:id="@+id/image_rectangle"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@drawable/image_rectangle"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/text_send_money"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Enviar Dinero"
+                android:textColor="#FF1A1A1A"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/image_send_icon"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="14dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_send_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_request"
+            android:layout_width="165dp"
+            android:layout_height="49dp"
+            android:layout_gravity="top"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="294dp"
+            android:layout_marginEnd="15dp">
+
+            <ImageView
+                android:id="@+id/btn_request_bg"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@drawable/btn_request_bg"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/btn_request_text"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Ingresar dinero"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/btn_request_icon"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="122dp"
+                android:layout_marginBottom="14dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_request_icon" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_last_transactions"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="375dp"
+            android:fontFamily="@font/jua"
+            android:gravity="start|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Ultimas transacciones"
+            android:textColor="#FF1A1A1A"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/container_group"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/text_amount"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="264dp"
+                android:layout_marginTop="3.5dp"
+                android:fontFamily="@font/jua"
+                android:gravity="end|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="-$15.00"
+                android:textColor="#FF000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="180dp"
+                android:alpha="0.4000000059604645"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Oct 14, 10:24 AM"
+                android:textColor="#FF1A1A1A"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginEnd="180dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Yara Khalil"
+                android:textColor="#FF1A1A1A"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/image_profile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="305dp"
+                android:layout_marginBottom="9dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_profile" />
+
+            <ImageView
+                android:id="@+id/image_oval"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="296dp"
+                android:background="@drawable/user_oval"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/image_send_icon1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="299dp"
+                android:layout_marginBottom="3dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drawable_image_1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/user_container"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="485dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/user_amount_text"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="264dp"
+                android:layout_marginTop="3.5dp"
+                android:fontFamily="@font/jua"
+                android:gravity="end|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="+$20.50"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/user_time_text"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="180dp"
+                android:layout_marginBottom="2.5dp"
+                android:alpha="0.4000000059604645"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Oct 12, 02:13 PM"
+                android:textColor="#FF1A1A1A"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginEnd="180dp"
+                android:layout_marginBottom="14dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Sara Ibrahim"
+                android:textColor="#FF1A1A1A"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/user_profile_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="305dp"
+                android:layout_marginBottom="9dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user_profile_image" />
+
+            <ImageView
+                android:id="@+id/user_oval_image"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="296dp"
+                android:background="@drawable/user_oval"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/user_request_icon_image"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="299dp"
+                android:layout_marginBottom="3dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user_request_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="545dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/user_balance1"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="264dp"
+                android:layout_marginTop="3.5dp"
+                android:fontFamily="@font/jua"
+                android:gravity="end|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="+$12.40"
+                android:textColor="#FF000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/user_time1"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="180dp"
+                android:layout_marginBottom="2.5dp"
+                android:alpha="0.4000000059604645"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Oct 11, 01:19 AM"
+                android:textColor="#FF1A1A1A"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_name1"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginEnd="180dp"
+                android:layout_marginBottom="14dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Ahmad Ibrahim"
+                android:textColor="#FF1A1A1A"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/user_profile_pic1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="305dp"
+                android:layout_marginBottom="9dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user_profile_pic1" />
+
+            <ImageView
+                android:id="@+id/user_oval"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="296dp"
+                android:background="@drawable/user_oval"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/user_request_icon1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="299dp"
+                android:layout_marginBottom="3dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user_request_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="600dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="264dp"
+                android:layout_marginTop="3.5dp"
+                android:fontFamily="@font/jua"
+                android:gravity="end|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="-$21.30"
+                android:textColor="#FF000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="180dp"
+                android:layout_marginBottom="2.5dp"
+                android:alpha="0.4000000059604645"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Oct 07, 09:10 PM"
+                android:textColor="#FF1A1A1A"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="57dp"
+                android:layout_marginEnd="180dp"
+                android:layout_marginBottom="14dp"
+                android:fontFamily="@font/jua"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Reem Khaled"
+                android:textColor="#FF1A1A1A"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="305dp"
+                android:layout_marginBottom="9dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drawable_image" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="296dp"
+                android:background="@drawable/drawable_shape"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="299dp"
+                android:layout_marginBottom="3dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drawable_image_1" />
+        </RelativeLayout>
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

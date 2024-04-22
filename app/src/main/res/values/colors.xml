@@ -2,31 +2,24 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-    <color name="colorPrimary">#008577</color>
+    <!-- <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
+    <color name="purple_700">#FF3700B3</color> -->
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+    <color name="light_grayish_blue">#F3F4F5</color>
+    
+    <color name="soft_blue">#63B8FC</color>
+    <color name="very_soft_blue">#84BFEE</color>
+    <color name="vivid_blue">#1A87DD</color>
 
-    <color name="login_signup_page_ek2_color">#FFFFFF</color>
-    <color name="_bg__background_ek1_color">#000000</color>
-    <color name="oval_color">#F3F4F5</color>
-    <color name="oval_ek1_color">#62B8FB</color>
-    <color name="already_have_account_color">#1A87DD</color>
+    <color name="very_dark_gray">#1A1A1A</color>
+    <color name="very_light_gray">#E7E7E7</color>
 
-    <color name="_bg___10__home_page___empty_case_ek2_color">#FFFFFF</color>
-    <color name="there_s_no_transacti_color">#1A1A1A</color>
-    <color name="_bg__empty_illustration_ek1_color">#000000</color>
-    <color name="oval_color2">#F2F2F2</color>
-    <color name="rectangle_ek1_color">#E7E7E7</color>
-    <color name="rectangle_ek8_color">#62B8FB</color>
-    <color name="rectangle_ek10_color">#71DA31</color>
-    <color name="oval_ek1_color2">#F8BB18</color>
-
-    <color name="_bg___1__splash_screen_1_ek2_color">#000000</color>
-
+    <color name="bright_green">#71DA31</color>
+    <color name="vivid_orange">#F8BB18</color>
+    <!-- soft_blue -->
 </resources>

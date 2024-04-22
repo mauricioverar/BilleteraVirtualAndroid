@@ -62,7 +62,7 @@
             android:layout_marginTop="670dp"
             android:gravity="center"
             android:text="@string/already_have_account_string"
-            android:textColor="@color/already_have_account_color"
+            android:textColor="@color/vivid_blue"
             android:textSize="14sp" />
 
         <!-- boton crear cuenta nueva -->
@@ -91,7 +91,7 @@
                 android:layout_marginTop="14dp"
                 android:gravity="center"
                 android:text="@string/crear_cuenta_nueva_string"
-                android:textColor="@color/login_signup_page_ek2_color"
+                android:textColor="@color/white"
                 android:textSize="14sp" />
 
 
@@ -106,7 +106,7 @@
             android:layout_marginTop="380dp"
             android:gravity="center"
             android:text="@string/the_best_way_to_tran_string"
-            android:textColor="@color/login_signup_page_ek2_color"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <RelativeLayout
@@ -232,7 +232,7 @@
                 android:layout_marginTop="94dp"
                 android:gravity="center"
                 android:text="@string/alkewallet_string"
-                android:textColor="@color/login_signup_page_ek2_color"
+                android:textColor="@color/white"
                 android:textSize="24sp" />
 
 
