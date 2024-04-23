@@ -54,4 +54,12 @@
 	<string name="apellido_string">Apellido</string>
 	<string name="signup_and_start_tra_string">Registrarse y empezar a transferir</string>
 
+	<string name="help_center_ek2_string">Crentro de ayuda</string>
+	<string name="settings_ek2_string">Opciones</string>
+	<string name="my_cards_ek2_string">Mis tarjetas</string>
+	<string name="my_info_ek2_string">Mi Informacion</string>
+	<string name="hisham_zayadnh_string">Amanda Alkemy</string>
+	<string name="h_string">H</string>
+	<string name="my_profile_string">Mi perfil</string>
+
 </resources>
