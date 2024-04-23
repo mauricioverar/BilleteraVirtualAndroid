@@ -62,4 +62,13 @@
 	<string name="h_string">H</string>
 	<string name="my_profile_string">Mi perfil</string>
 
+    <string name="send_payment_string">Enviar Dinero</string>
+    <string name="add_payment_note_string">Agregar notas de transferencia(opcional)</string>
+    <string name="payment_note_ek2_string">Notas de transferncia</string>
+    <string name="_12_50_string">12.50</string>
+    <string name="payment_amount_ek2_string">Cantidad a transferir</string>
+    <string name="yara_khalil_gmail_co_string">yara_khalil@gmail.com</string>
+    <string name="yara_khalil_string">Yara Khalil</string>
+    <string name="y_string">Y</string>
+
 </resources>
