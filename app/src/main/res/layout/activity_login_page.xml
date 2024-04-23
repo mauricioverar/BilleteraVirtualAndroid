@@ -96,7 +96,7 @@
                     android:layout_width="153.4dp"
                     android:layout_height="25.4dp"
                     android:layout_gravity="center_horizontal|center"
-                    android:layout_marginStart="113dp"
+                    android:layout_marginStart="114dp"
                     android:layout_marginTop="680dp"
                     android:gravity="center"
                     android:text="@string/create_new_account_string"

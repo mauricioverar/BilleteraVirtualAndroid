@@ -40,10 +40,18 @@
     <string name="create_new_account_string">Crear una nueva cuenta</string>
     <string name="login_string">Login</string>
     <string name="enter_your_password_string">Ingresar tu contraseña</string>
-    <string name="password_ek2_string">Contrasea</string>
+    <string name="password_ek2_string">Contraseña</string>
     <string name="forget_password__string">Olvidaste tu contraseña?</string>
     <string name="enter_your_email_string">Ingresar tu email</string>
     <string name="email_ek2_string">Email</string>
     <string name="login_and_start_tran_string">Logea y empeza a tranferir!</string>
+
+	<string name="create_account_string">Crear Cuenta</string>
+	<string name="enter_your_password_ek2_string">Reingresar contraseña</string>
+	<string name="enter_your_name_string">Ingresar nombre</string>
+	<string name="enter_your_lastname_string">Ingresar apellido</string>
+	<string name="name_string">Nombre</string>
+	<string name="apellido_string">Apellido</string>
+	<string name="signup_and_start_tra_string">Registrarse y empezar a transferir</string>
 
 </resources>
