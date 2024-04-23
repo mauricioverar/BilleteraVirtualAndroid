@@ -71,4 +71,10 @@
     <string name="yara_khalil_string">Yara Khalil</string>
     <string name="y_string">Y</string>
 
+	<string name="request_payment_string">Ingresar Dinero</string>
+	<string name="_20_00_string">20.00</string>
+	<string name="payment_amount_in_string">Cantidad a ingresar</string>
+	<string name="reem_1993_gmail_com_string">reem_1993@gmail.com</string>
+	<string name="reem_khaled_string">Reem Khaled</string>
+
 </resources>
