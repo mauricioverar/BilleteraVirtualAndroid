@@ -37,4 +37,13 @@
     <string name="path_ek2">path_ek2</string>
     <string name="path_ek1" tools:ignore="Typos">path_ek1</string>
     <string name="path">path</string>
+    <string name="create_new_account_string">Crear una nueva cuenta</string>
+    <string name="login_string">Login</string>
+    <string name="enter_your_password_string">Ingresar tu contraseña</string>
+    <string name="password_ek2_string">Contrasea</string>
+    <string name="forget_password__string">Olvidaste tu contraseña?</string>
+    <string name="enter_your_email_string">Ingresar tu email</string>
+    <string name="email_ek2_string">Email</string>
+    <string name="login_and_start_tran_string">Logea y empeza a tranferir!</string>
+
 </resources>
